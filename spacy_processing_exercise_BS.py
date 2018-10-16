@@ -23,7 +23,7 @@ from gensim import models # necessary for Phrases, LDA model and TFIDF
 
 ## If time, could also work out how to visualise the results with PyLDA
 
-corpus = "snf_html_corpus_simple.txt"
+corpus = "sample_corpus.txt"
 
 raw_corpus = []
 
