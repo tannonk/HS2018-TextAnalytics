@@ -23,7 +23,7 @@ from gensim import models # necessary for Phrases, LDA model and TFIDF
 
 nlp = spacy.load("en")
 
-corpus = "snf_html_corpus_simple.txt"
+corpus = "sample_corpus.txt"
 
 raw_corpus = []
 
