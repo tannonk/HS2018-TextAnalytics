@@ -1,5 +1,6 @@
 # !/usr/bin/env python3
 # coding: utf-8
+
 ## Text Analytics in der Theorie und Praxis (UZH 2018)
 ## Authour: tkew
 ## Idea from https://www.youtube.com/watch?v=ZkAFJwi-G98&list=PL5vqZCoxt6JgQtFSRivfvVxNL8_U5Aa7k
@@ -28,12 +29,9 @@ from gensim import corpora # necessary for building dictionary and bag of words 
 from gensim import models # necessary for Phrases, LDA model and TFIDF
 
 ######################################################################################
-
 ## If time, could also work out how to visualise the results with PyLDA
-
 ######################################################################################
 ## read in the corpus file
-######################################################################################
 
 corpus = "sample_corpus.txt"
 
@@ -54,7 +52,6 @@ with open(corpus, "r", encoding="utf8") as inf:
 # inspect the raw_corpus:
 # raw_corpus
 ######################################################################################
-
 ## Corpus with no preprocessing:
 
 corpus = [doc.split() for doc in raw_corpus]
@@ -92,8 +89,6 @@ mapped_corpus = [dictionary.doc2bow(doc) for doc in corpus_phrased]
 ######################################################################################
 # inspect mapped_corpus
 # corpus[1][0:10]
-######################################################################################
-
 ######################################################################################
 ## let's get ready to model some topics and print them nicely
 
