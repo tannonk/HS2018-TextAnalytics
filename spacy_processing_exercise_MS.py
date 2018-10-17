@@ -1,6 +1,13 @@
 # !/usr/bin/env python3
 # coding: utf-8
 
+## Text Analytics in der Theorie und Praxis (UZH 2018)
+## Authour: tkew
+## Idea from https://www.youtube.com/watch?v=ZkAFJwi-G98&list=PL5vqZCoxt6JgQtFSRivfvVxNL8_U5Aa7k
+## Sarkar (2016)
+
+######################################################################################
+
 ## Install necessary dependencies.
 ##
 ## scpacy (https://spacy.io/usage/#section-quickstart):
